@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 # Firebase bağlantısını başlatma
-cred = credentials.Certificate("butterfly-e6e77-firebase-adminsdk-shrw3-46e5f3fa7e.json")
+cred = credentials.Certificate("yourjsonfile.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
